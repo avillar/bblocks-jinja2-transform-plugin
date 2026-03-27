@@ -1,0 +1,12 @@
+[build-system]
+requires = ["setuptools"]
+build-backend = "setuptools.backends.legacy:build"
+
+[project]
+name = "bbplugin-jinja2"
+version = "0.1.0"
+description = "Example bblocks transform plugin: Jinja2 template renderer"
+requires-python = ">=3.10"
+dependencies = [
+    "jinja2",
+]
